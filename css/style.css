@@ -1,7 +1,5 @@
 html {}
 
-	  
-
 body {
 	margin-top:90px;
 	background: #000;
@@ -43,9 +41,6 @@ body {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-
-
-
 
 }
 
@@ -97,7 +92,6 @@ a {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
 }
 
@@ -145,7 +139,6 @@ p {
 
 
 }
-
 
 
 .col {
@@ -241,7 +234,6 @@ p {
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
 }
 
@@ -296,7 +288,7 @@ p {
 		flex-wrap: wrap;
 		justify-content: center;
 		
-	}
+	 }
 
 	
 		.col {
@@ -338,16 +330,7 @@ p {
 
 .thumbnail:hover {
     opacity: .6;
-
-
-}
-
-.thumbnail:hover {
-     background: linear-gradient(270deg, #000000, #000000);
-     background-size: 400% 400%;
-
-
-}
+    }
 
 
 .thumbnail {
@@ -363,13 +346,7 @@ p {
     -ms-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
      
-   
-}
-
-
-@media (min-width: 769px) {
-
-
+   }
 
 
 
@@ -379,19 +356,11 @@ p {
 
     	margin: 0 auto;
     	padding-bottom: 3em;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		width: 50%;
-		
-	}
-
-	.col {
-		
+		  display: flex;
+		 flex-direction: column;
+		 justify-content: center;
+		 width: 50%;
 		
 	}
 
 
-
-
-}
