@@ -259,6 +259,56 @@ p {
 	color: #0000ff;
 }
 
+/* Email Signup mail chimppppppp */
+
+
+#mailchimp {
+  color: #000;
+  margin-top:100px;
+
+
+}
+#mailchimp input {
+  border: medium none;
+  color: #fff;
+  font-family: "karla", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding: 10px;
+  width: 320px;
+
+}
+#mailchimp input.email {
+  background: #000;
+  border: #fff solid 2px;
+
+}
+#mailchimp input.name { background: #fff}
+#mailchimp input[type="submit"] {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  -webkit-transition-duration: 1s; 
+  transition-duration: 1s;
+
+
+}
+
+#mailchimp input[type="submit"]:hover {
+ color: #fff;
+ font-style: italic;
+
+
+ }
+
+
+input:focus {
+    outline:none !important;
+}
+
 
 /* ================================= 
   Media Queries
