@@ -286,14 +286,12 @@ p {
 }
 #mailchimp input.name { background: #fff}
 #mailchimp input[type="submit"] {
-  background: #000;
+  background: none;
   color: #fff;
-  cursor: pointer;
   font-size: 18px;
-  width: 100%;
+  width: 25%%
   -webkit-transition-duration: 1s; 
   transition-duration: 1s;
-
 
 }
 
